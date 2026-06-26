@@ -1,0 +1,77 @@
+Microsoft Windows [版本 10.0.26200.8655]
+(c) Microsoft Corporation。保留所有权利。
+
+E:\gal\futa_femboy\Tales_Of_Androgyny_v0.3.67.0_Win64——汉化\toa_toolkit_v3_final>python split_tool.py merge strings_ainiee_parts/      --output strings_merged.json
+找到 2 个文件，合并中...
+  有效译文: 6200 条  |  未翻译(空): 0 条
+  ⚠ 未找到去重映射表，仅合并已有 key
+  最终覆盖 key: 6200 条
+
+✅ 合并完成 → strings_merged.json（可直接用于 inject 回注）
+
+E:\gal\futa_femboy\Tales_Of_Androgyny_v0.3.67.0_Win64——汉化\toa_toolkit_v3_final>python split_tool.py merge encounters_paratranz_parts/ --output encounters_merged.json
+找到 13 个文件，合并中...
+  有效译文: 37508 条  |  未翻译(空): 0 条
+  ⚠ 未找到去重映射表，仅合并已有 key
+  最终覆盖 key: 37508 条
+
+✅ 合并完成 → encounters_merged.json（可直接用于 inject 回注）
+
+E:\gal\futa_femboy\Tales_Of_Androgyny_v0.3.67.0_Win64——汉化\toa_toolkit_v3_final>python update_tool.py init strings_merged.json encounters_merged.json
+导入: strings_merged.json
+  导入 6200 条
+导入: encounters_merged.json
+  导入 37508 条
+✅ 缓存已保存：trans_cache.json（43708 条）
+  新增: 43708 条  |  缓存总计: 43708 条
+
+E:\gal\futa_femboy\Tales_Of_Androgyny_v0.3.67.0_Win64——汉化\toa_toolkit_v3_final>python toa_trans_toolkit.py extract-strings new_strings.properties --fmt ainiee
+✅ strings.properties 提取完毕
+   总条目: 6847  跳过: 10  待翻译: 6837
+   输出: strings_ainiee.json
+
+E:\gal\futa_femboy\Tales_Of_Androgyny_v0.3.67.0_Win64——汉化\toa_toolkit_v3_final>python encounters_toolkit.py extract new_encounters.json
+读取: new_encounters.json
+✅ 提取完成
+   剧情数:          4131
+   总条目:          41365
+   待翻译:          41289
+   跳过(空/点号):   1220
+   跳过(<游戏标签>):12472  ← 新增过滤
+   输出: encounters_paratranz.json
+
+E:\gal\futa_femboy\Tales_Of_Androgyny_v0.3.67.0_Win64——汉化\toa_toolkit_v3_final>python update_tool.py diff strings_ainiee.json      --output strings_todo.json
+缓存条目: 43708
+新版本条目: 6837
+
+📊 差异分析结果
+   直接复用（原文未变）:     0 条
+   原文已修改（需重译）:  6200 条
+   新增（需翻译）:         637 条
+   ─────────────────────────────
+   本次需翻译总计:        6837 条
+
+   待翻译文件: strings_todo.json
+   完整文件:   strings_todo_full.json  ← 可立即用于回注（含所有已有译文）
+
+➡️  下一步：用 AiNiee 翻译 strings_todo.json
+   翻译完后运行: python update_tool.py apply strings_todo.json
+
+E:\gal\futa_femboy\Tales_Of_Androgyny_v0.3.67.0_Win64——汉化\toa_toolkit_v3_final>python update_tool.py diff encounters_paratranz.json --output encounters_todo.json
+缓存条目: 43708
+新版本条目: 41289
+
+📊 差异分析结果
+   直接复用（原文未变）:     0 条
+   原文已修改（需重译）: 37490 条
+   新增（需翻译）:        3799 条
+   ─────────────────────────────
+   本次需翻译总计:       41289 条
+
+   待翻译文件: encounters_todo.json
+   完整文件:   encounters_todo_full.json  ← 可立即用于回注（含所有已有译文）
+
+➡️  下一步：用 AiNiee 翻译 encounters_todo.json
+   翻译完后运行: python update_tool.py apply encounters_todo.json
+
+E:\gal\futa_femboy\Tales_Of_Androgyny_v0.3.67.0_Win64——汉化\toa_toolkit_v3_final>

@@ -1,0 +1,4461 @@
+[
+  {
+    "key": "enemy_defeated.goblin_male",
+    "original": "The Goblin is knocked to the ground, defeated!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "item_upgrade_type.shield_durability.label",
+    "original": "Durable",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "sphincter_friction.normal",
+    "original": "Normal",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "sphincter_dilation.normal",
+    "original": "Normal",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "start_bonus.stat_points.label",
+    "original": "Bonus Stat Points",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "start_bonus.skill_points.label",
+    "original": "Bonus Skill Points",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "start_bonus.soul_crystals.label",
+    "original": "Bonus Soul Crystals",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "start_bonus.perk_points.label",
+    "original": "Bonus Perk Points",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "start_bonus.gold.label",
+    "original": "Bonus Gold",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "start_bonus.food.label",
+    "original": "Bonus Food",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "checkscene.continue",
+    "original": "Continue",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "checkscene.somestat_check_threshold",
+    "original": "{0} check ({1}):",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {0} {1} [新增]"
+  },
+  {
+    "key": "replayscreen.normal",
+    "original": "Normal",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "worldmapscreen.mini_encounter_no",
+    "original": "No",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "victoryscreen.click_to_continue",
+    "original": "Click to continue...",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "perk.lockpick.label",
+    "original": "Lockpick",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "achievement.bitch.label",
+    "original": "Bitch",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "replayscreen.a2a",
+    "original": "A2A",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "replayscreen.anal_alt",
+    "original": "Anal alt",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "replayscreen.anal_cum_cage",
+    "original": "Anal (Cum Cage)",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "replayscreen.anal_semi",
+    "original": "Anal (Semi)",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "replayscreen.dp",
+    "original": "DP",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "replayscreen.thong",
+    "original": "Thong",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "replayscreen.mirror",
+    "original": "Mirror",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "replayscreen.portal",
+    "original": "Portal",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "replayscreen.rub",
+    "original": "Rub",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "replayscreen.top",
+    "original": "Top",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "replayscreen.underwear",
+    "original": "Underwear",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "character.unknown_name",
+    "original": "???",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "character.merchant.label",
+    "original": "Merchant",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "character.goblin.label",
+    "original": "Goblin",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "character.goblin_male.label",
+    "original": "Goblin",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "character.orc.label",
+    "original": "Orc",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "character.hiro_2.extended_label",
+    "original": "a Hiro",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "character.alley_men.extended_label",
+    "original": "Alley Men",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "character.goblin_male.extended_label",
+    "original": "a Goblin",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "character.bunny.extended_label",
+    "original": "Puca",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "character.catgirl_shopkeep.description",
+    "original": "A catgirl selling her wares in the bazaar of the hidden catgirl village. Upbeat and a little smarmy, and loves to tease her customers.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "character.orc.fetishes",
+    "original": "They vastly prefer giving.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stance.anal.label",
+    "original": "Missionary",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stance.standing.label",
+    "original": "Standing Anal",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "status.shield.label",
+    "original": "Shield",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "status.advantage.label",
+    "original": "Advantage",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "status.embarrassed.label",
+    "original": "Embarrassed",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "status.desperate.label",
+    "original": "Desperate",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "status.bleeding.usedescription",
+    "original": "Bleeding",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounterbounty.BIG_ANAL_TRAP_AVOIDED",
+    "original": "You avoided a rogue tentacle. Naughty!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "optionscreen.elf_outfit.bunny",
+    "original": "Bunny",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "optionscreen.elf_outfit.kitty",
+    "original": "Kitty",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "optionscreen.orc_outfit.battlesilk",
+    "original": "Battlesilk",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "optionscreen.warlock_outfit.succubus",
+    "original": "Succubus",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "optionscreen.dark_knight_outfit.underwear",
+    "original": "Underwear",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "characterscreen.virginity.only_not_cock",
+    "original": "Lost V-card, still chaste in the backdoor!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "characterscreen.virginity.only_not_oral",
+    "original": "Hasn't done mouth stuff!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "characterscreen.virginity.only_lost_mouth",
+    "original": "Has sucked cock!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "characterscreen.virginity.lost_oral_and_anal",
+    "original": "Sucked and been fucked, never topped!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "characterscreen.virginity.lost_cock_and_oral",
+    "original": "Sucked and fucked!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "characterscreen.virginity.lost_all_but_being_blown",
+    "original": "Done it all, but never been blown!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "characterscreen.virginity.only_been_blown",
+    "original": "Got a BJ, but that's it!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "characterscreen.virginity.only_been_fucked_and_sucked",
+    "original": "Been fucked and sucked!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "characterscreen.virginity.only_been_blown_and_fucked",
+    "original": "Only topped!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "characterscreen.virginity.done_all_but_suck",
+    "original": "Done everything but suck!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "characterscreen.virginity.done_all_mouth_stuff",
+    "original": "Done all the mouth stuff!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "characterscreen.virginity.lost_all_but_cock",
+    "original": "Lost everything but the big V!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "characterscreen.virginity.only_anal",
+    "original": "Still chaste in the butt!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "characterscreen.virginity.done_it_all",
+    "original": "Done it all!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "characterscreen.virginity.still_virgin.colon",
+    "original": "Still virgin:",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "characterscreen.virginity.still_virgin.butt",
+    "original": "butt",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "characterscreen.virginity.still_virgin.mouth",
+    "original": "mouth",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "characterscreen.virginity.still_virgin.cock",
+    "original": "cock",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "characterscreen.virginity.still_virgin.blowjob",
+    "original": "blowjob",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "jobclass.bitch.label",
+    "original": "Bitch",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "jobclass.bunny.label",
+    "original": "Bunny",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "jobclass.queen.label",
+    "original": "Queen",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "jobclass.undefined.description",
+    "original": "???",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "outfit.warrior",
+    "original": "Warrior",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "outfit.paladin",
+    "original": "Paladin",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "outfit.thief",
+    "original": "Thief",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "outfit.ranger",
+    "original": "Ranger",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "outfit.mage",
+    "original": "Mage",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "outfit.enchantress",
+    "original": "Enchanter",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "outfit.bitch",
+    "original": "Bitch",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "outfit.mare",
+    "original": "Mare",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "outfit.bunny",
+    "original": "Bunny",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "outfit.queen",
+    "original": "Queen",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "outfit.prostitute",
+    "original": "Prostitute",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "outfit.schoolgirl",
+    "original": "Schoolgirl",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "outfit.lewd_schoolgirl",
+    "original": "Lewd Schoolgirl",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "outfit.demon_king_servant",
+    "original": "Demon King",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "outfit.warlock_gown",
+    "original": "Gown",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.harpy.name",
+    "original": "Harpy",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.elite_harpy.name",
+    "original": "Elite Harpy",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.slime.name",
+    "original": "Slime",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.brigand.name",
+    "original": "Brigand",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.centaur.name",
+    "original": "Centaur",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.unicorn.name",
+    "original": "Unicorn",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.goblin.name",
+    "original": "Goblin",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.orc.name",
+    "original": "Orc",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.adventurer.name",
+    "original": "Adventurer",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.ogre.name",
+    "original": "Ogre",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.spider.name",
+    "original": "Arachne",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.golem.name",
+    "original": "Golem",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.ghost.name",
+    "original": "Ghost",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.bunny.name",
+    "original": "Puca",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.angel.name",
+    "original": "Angel",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.naga.name",
+    "original": "Naga",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.quetzal.name",
+    "original": "Quetzal Goddess",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.mermaid.name",
+    "original": "Mermaid",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.warlock.name",
+    "original": "Warlock",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.giantess.name",
+    "original": "Giantess",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.dullahan.name",
+    "original": "Dullahan",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.wasp.name",
+    "original": "Wasp",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.doppelganger.name",
+    "original": "Doppelganger",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.persephone.name",
+    "original": "Persephone",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.helena.name",
+    "original": "Helena",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.minotauress.name",
+    "original": "Minotauress",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.fire_elemental.name",
+    "original": "Fire Elemental",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.ettin.name",
+    "original": "Ettin",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.kitsune.name",
+    "original": "Kitsune",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.jester.name",
+    "original": "Jester",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.dark_knight.name",
+    "original": "Dark Knight",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.catgirl.name",
+    "original": "Catgirl",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.tentacle_witch.name",
+    "original": "Tentacle Witch",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "enemy.demon_king.name",
+    "original": "Demon King",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "item.lockpick.name",
+    "original": "Lockpick",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "item.cat_tailplug.description",
+    "original": "A buttplug attached to a fluffy tail.\nArouses a certain type of person.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "item.mouse_tailplug.description",
+    "original": "A buttplug attached to a fluffy tail.\nArouses a certain type of person.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "item.mouse_cage.name",
+    "original": "Mouse Cage",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "item.mouse_cage.description",
+    "original": "A thing which will fit around your penis and prevent erections, designed to look like a mousey.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "item.tentacle.name",
+    "original": "Tentacle",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "item.desc.weight",
+    "original": "Weight: {0}",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {0} [新增]"
+  },
+  {
+    "key": "item.strength_charm.description",
+    "original": "Increases Strength by 1.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "item.endurance_charm.description",
+    "original": "Increases Endurance by 1.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "item.agility_charm.description",
+    "original": "Increases Agility by 1.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "item.perception_charm.description",
+    "original": "Increases Perception by 1.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "item.magic_charm.description",
+    "original": "Increases Magic by 1.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "item.charisma_charm.description",
+    "original": "Increases Charisma by 1.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "item.effecttype.spider",
+    "original": "Spider",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "item.effecttype.slime",
+    "original": "Slime",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "item.effecttype.mana",
+    "original": "Mana Crystal",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "item.effecttype.lubricant",
+    "original": "Lubricant",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stat.strength",
+    "original": "Strength",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stat.endurance",
+    "original": "Endurance",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stat.agility",
+    "original": "Agility",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stat.perception",
+    "original": "Perception",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stat.magic",
+    "original": "Magic",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stat.charisma",
+    "original": "Charisma",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "choicechecktype.has_gem.label",
+    "original": "Gem",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "choicechecktype.has_lockpick.label",
+    "original": "Lockpick",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "choicechecktype.has_ice_cream.label",
+    "original": "Ice Cream",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "choicechecktype.has_kylira.label",
+    "original": "Friend",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "choicechecktype.has_kylira_or_trudy.label",
+    "original": "Friend",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "choicechecktype.has_urka.label",
+    "original": "Friend",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "choicechecktype.story.label",
+    "original": "Story",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "choicechecktype.perk_less_than_x.label",
+    "original": "{0} <{1}",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {0} {1} [新增]"
+  },
+  {
+    "key": "choicechecktype.stat_less_than_x.label",
+    "original": "{0} <{1}",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {0} {1} [新增]"
+  },
+  {
+    "key": "battlescreen.results",
+    "original": "Results:",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "battlescreen.technique_button_one_keybind",
+    "original": "{0} ({1})",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {0} {1} [新增]"
+  },
+  {
+    "key": "character.stat_penalty.stamina_degradation.str_part",
+    "original": "-{0} STR,",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {0} [新增]"
+  },
+  {
+    "key": "character.purity_display",
+    "original": "{0} - Rank {1} ({2} / 100)",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {0} {1} {2} [新增]"
+  },
+  {
+    "key": "skillselectionscene.magic",
+    "original": "Magic",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "skillselectionscene.sex",
+    "original": "Sex",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "skillselectionscene.you_have_reduce_someperk_to_rank_x",
+    "original": "You have reduced {0} to Rank {1}.",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {0} {1} [新增]"
+  },
+  {
+    "key": "skillselectionscene.you_cannot_reduce_someperk_below_rank_x",
+    "original": "You cannot reduce {0} below Rank {1}.",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {0} {1} [新增]"
+  },
+  {
+    "key": "technique.reversal_attack.name",
+    "original": "Advance",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.kick_over_face_down.name",
+    "original": "Kick Over",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.riposte.name",
+    "original": "Riposte",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.cancel.name",
+    "original": "Cancel",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.fire.name",
+    "original": "Loose",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.finger_self_hands.name",
+    "original": "Finger Self",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.finger_self.name",
+    "original": "Finger Self",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.stand_up.name",
+    "original": "Stand Up",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.stand_up_hands.name",
+    "original": "Stand Up",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.knee_up_hands.name",
+    "original": "Knee Up",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.surrender.name",
+    "original": "Surrender",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.rest_face_down.name",
+    "original": "Rest",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.roll_over_down.name",
+    "original": "Roll Over",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.activate.name",
+    "original": "Activate",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.trumpet.name",
+    "original": "Trumpet",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.squeeze_rest.name",
+    "original": "Rest",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.bondage_release.name",
+    "original": "Release",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.bondage_struggle.name",
+    "original": "Struggle",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.break_free_bondage.name",
+    "original": "Break Free",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.bondage_rest.name",
+    "original": "Rest",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.lick_lips_holding.name",
+    "original": "Lick Lips",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.pounce_prone_bone.name",
+    "original": "Pounce",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.pounce_anal.name",
+    "original": "Pounce",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.penetrate_standing.name",
+    "original": "Penetrate",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.makeout.name",
+    "original": "Kiss",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.standing_to_doggy.name",
+    "original": "Doggy Style",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.yoink_oral.name",
+    "original": "Yoink",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.knot.name",
+    "original": "Knot",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.mouth_knot.name",
+    "original": "Knot",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.oviposition.name",
+    "original": "Oviposition",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.cornhole_kylira.name",
+    "original": "Cornhole",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.cornhole_trudy.name",
+    "original": "Cornhole",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.pound_doggy_trudy.name",
+    "original": "Assfuck",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.erupt_doggy_trudy.name",
+    "original": "Erupt",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.irrumatio.name",
+    "original": "Irrumatio",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.hold.name",
+    "original": "Hold",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.ass_blast_kylira.name",
+    "original": "Ass Blast",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.crush_ass_kylira.name",
+    "original": "Crush Ass",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.prostate_grind_kylira.name",
+    "original": "Prostate Grind",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.ass_blast_trudy.name",
+    "original": "Ass Blast",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.crush_ass_trudy.name",
+    "original": "Crush Ass",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.prostate_grind_trudy.name",
+    "original": "Prostate Grind",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.pound_anal.name",
+    "original": "Pound",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.kiss_anal.name",
+    "original": "Kiss",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.pound_standing.name",
+    "original": "Pound",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.spank_standing.name",
+    "original": "Spank",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.release_spank.name",
+    "original": "Release",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.crush.name",
+    "original": "Crush",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.grind_ass.name",
+    "original": "Grind",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.mouth_feel_bottom.name",
+    "original": "Get Mouthfucked",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.reciprocate_bottom.name",
+    "original": "Reciprocate",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.reciprocate_forced.name",
+    "original": "Reciprocate",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.swallow_down_bottom.name",
+    "original": "Nose to Balls",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.mouth_knot_bang.name",
+    "original": "Knot Bang",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.blow_load_oral.name",
+    "original": "Blow Load",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.erupt_anal.name",
+    "original": "Erupt",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.erupt_oral.name",
+    "original": "Erupt",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.erupt_facial.name",
+    "original": "Facial",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.erupt_foot.name",
+    "original": "Erupt",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.erupt_cowgirl.name",
+    "original": "Erupt",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.erupt_sixty_nine.name",
+    "original": "Erupt",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.fondle_chest.name",
+    "original": "Fondle Chest",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.be_ridden_reverse.name",
+    "original": "Be Ridden",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.spank_cowgirl.name",
+    "original": "Spank",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.stroke_rev_cowgirl.name",
+    "original": "Stroke",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.hip_bridge_rev.name",
+    "original": "Hip Bridge",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.push_off_attempt.name",
+    "original": "Push Off",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.push_off_reverse.name",
+    "original": "Push Off",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.push_off_attempt_reverse.name",
+    "original": "Push Off",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.ride_on_it_reverse.name",
+    "original": "Ride On It",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.bounce_on_it_reverse.name",
+    "original": "Bounce On It",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.squeeze_it_reverse.name",
+    "original": "Squeeze It",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.grind_on_it_reverse.name",
+    "original": "Grind On It",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.ride_and_slap.name",
+    "original": "Slap Ass",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.pull_out_anal.name",
+    "original": "Pull Out",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.pull_out_oral.name",
+    "original": "Pull Out",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.pull_out_standing.name",
+    "original": "Pull Out",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.stroke_doggy.name",
+    "original": "Stroke",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.receive_standing.name",
+    "original": "Receive",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.push_back_standing.name",
+    "original": "Push Back",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.stroke_standing.name",
+    "original": "Stroke",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.receive_prone_bone.name",
+    "original": "Receive",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.push_back.name",
+    "original": "Push Back",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.receive_anal.name",
+    "original": "Receive",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.stroke.name",
+    "original": "Stroke",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.pout.name",
+    "original": "Pout",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.kiss.name",
+    "original": "Kiss",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.get_face_ridden.name",
+    "original": "Endure",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.receive_ouroboros.name",
+    "original": "Round and Round",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.selfsuck.name",
+    "original": "Suck It",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.wrestle_to_ground_up.name",
+    "original": "Wrestle",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.penetrate_prone.name",
+    "original": "Penetrate",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.penetrate_missionary.name",
+    "original": "Penetrate",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.ground_makeout.name",
+    "original": "Kiss",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.hold_wrestle.name",
+    "original": "Hold",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.tease_nipples.name",
+    "original": "Tease Nipples",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.rest_wrestle.name",
+    "original": "Rest",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.flip_supine.name",
+    "original": "Flip",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.release_prone.name",
+    "original": "Release",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.release_supine.name",
+    "original": "Release",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.grind.name",
+    "original": "Grind",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.rest_ground_down.name",
+    "original": "Rest",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.full_reversal.name",
+    "original": "Reversal",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.rest_ground_up.name",
+    "original": "Rest",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.combat_frost.name",
+    "original": "Chill",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.gravity.name",
+    "original": "Gravity",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.invisibility.name",
+    "original": "Invisibility",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.sleep.name",
+    "original": "Sleep",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.struggle_ground_up.name",
+    "original": "Grapple",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.struggle.name",
+    "original": "Struggle",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.release.name",
+    "original": "Release",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.break_free.name",
+    "original": "Break Free",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.ass_blast_kylira.description",
+    "original": "Give that ass a whole dick like a jackhammer.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.crush_ass_kylira.description",
+    "original": "Give it to that ass deep and hard.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.prostate_grind_kylira.description",
+    "original": "Grind it inside against their prostate or whatever else.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.ass_blast_trudy.description",
+    "original": "Give that ass a whole dick like a jackhammer.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.crush_ass_trudy.description",
+    "original": "Give it to that ass deep and hard.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.prostate_grind_trudy.description",
+    "original": "Grind it inside against their prostate or whatever else.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.reciprocate_forced.description",
+    "original": "Give head and take it.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.ride_on_it_reverse.description",
+    "original": "Slide up and down on it.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.bounce_on_it_reverse.description",
+    "original": "Bounce up and down on it with your arms above your head.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.squeeze_it_reverse.description",
+    "original": "Squeeze it with your hole.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.grind_on_it_reverse.description",
+    "original": "Keep it deep and stir it around inside.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.pull_out_anal.description",
+    "original": "Pull out.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.pull_out_standing.description",
+    "original": "Pull Out.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.spread_legs.description",
+    "original": "Take it up the butt face-down.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.suck_it.description",
+    "original": "Open wide and swallow it down.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.receive_ouroboros.description",
+    "original": "Open wide and swallow it down.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "technique.get_facefucked.description",
+    "original": "Open wide and swallow it down.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "climax.sixtynine.10",
+    "original": "{Poss0} cock erupts in your mouth!",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {Poss0} [新增]"
+  },
+  {
+    "key": "battle.knotting_message.knotted_bottom.full_inflated.30",
+    "original": "You're drooling!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "battle.knotting_message.mouth_knotted_bottom.uninflated.10",
+    "original": "{Poss0} powerful hips try to force something big inside!",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {Poss0} [新增]"
+  },
+  {
+    "key": "battle.knotting_message.mouth_knotted_bottom.uninflated.20",
+    "original": "You struggle... but can't escape!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "battle.knotting_message.mouth_knotted_bottom.uninflated.40",
+    "original": "You learned about Anatomy(Wereslut)! You are being bred!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "battle.knotting_message.mouth_knotted_bottom.half_inflated.20",
+    "original": "You can't dislodge it; it's too large!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "battle.knotting_message.mouth_knotted_bottom.half_inflated.30",
+    "original": "You're drooling!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "battle.knotting_message.mouth_knotted_bottom.full_inflated.10",
+    "original": "The battle is over, but your ordeal has just begun!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "battle.knotting_message.oviposition_bottom.full_inflated.10",
+    "original": "The battle is over, but your ordeal has just begun!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "battle.anal_message.wereslut.40",
+    "original": "{Poss0} arhythmic thrusting in and out of your asshole is emasculating!",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {Poss0} [新增]"
+  },
+  {
+    "key": "battle.anal_message.wereslut.50",
+    "original": "You are red-faced and embarrassed because of {poss0} butt-stuffing!",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {poss0} [新增]"
+  },
+  {
+    "key": "battle.anal_message.wereslut.60",
+    "original": "Your cock is ignored!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "battle.anal_message.harpy.60",
+    "original": "Your cock is ignored!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "battle.anal_message.goblin.40",
+    "original": "{Poss0} rhythmic thrusting in and out of your asshole is emasculating!",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {Poss0} [新增]"
+  },
+  {
+    "key": "battle.anal_message.goblin.60",
+    "original": "Your cock is ignored!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "battle.anal_message.naga.60",
+    "original": "Your cock is ignored!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "battle.anal_message.generic.40",
+    "original": "{Poss0} rhythmic thrusting in and out of your asshole is emasculating!",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {Poss0} [新增]"
+  },
+  {
+    "key": "battle.anal_message.generic.50",
+    "original": "You are red-faced and embarrassed because of {poss0} butt-stuffing!",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {poss0} [新增]"
+  },
+  {
+    "key": "battle.anal_message.generic.60",
+    "original": "Your cock is ignored!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "battle.oral_message.generic.30",
+    "original": "{Nom0} licks {poss0} lips!",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {Nom0} {poss0} [新增]"
+  },
+  {
+    "key": "passive_dialog.used_drunk_effect_item_against.doppelganger",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.used_drunk_effect_item_against.giantess",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.used_alcohol_effect_item_against.doppelganger",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.used_alcohol_effect_item_against.persephone",
+    "original": "\"Eugh.\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.used_alcohol_effect_item_against.spider",
+    "original": "\"Hrm?\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.used_alcohol_effect_item_against.giantess",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.used_aphrodisiac_effect_item_against.goblin",
+    "original": "\"Hey hey, lemme have some o' that!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.used_aphrodisiac_effect_item_against.doppelganger",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.used_aphrodisiac_effect_item_against.harpy",
+    "original": "\"Caw!\" she says, excitedly.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.used_aphrodisiac_effect_item_against.wasp",
+    "original": "\"Yes... lubricate that throat for my eggs...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.used_aphrodisiac_effect_item_against.giantess",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.anal.doppelganger",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.prone_bone.golem",
+    "original": "\"Initializing mating routine.\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.prone_bone.doppelganger",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.cowgirl.wereslut",
+    "original": "\"Woof, mating! Mating! Take my puppies!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.cowgirl.golem",
+    "original": "\"Initializing mating routine.\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.cowgirl.doppelganger",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.cowgirl.harpy",
+    "original": "\"Caw... caw?!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.reverse_cowgirl.goblin",
+    "original": "\"Nyahaha! Up the butt!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.reverse_cowgirl.adventurer",
+    "original": "\"Mmm... you'll do,\" he says, as he slips his wet one inside.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.reverse_cowgirl.golem",
+    "original": "\"Initializing mating routine.\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.reverse_cowgirl.doppelganger",
+    "original": "\"...?\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.reverse_cowgirl.harpy",
+    "original": "\"Caw?!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.doggy.wereslut",
+    "original": "\"Woof, mating! Mating! Take my puppies!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.doggy.goblin",
+    "original": "\"Nyahaha! Up the butt!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.doggy.adventurer",
+    "original": "\"Mmm... you'll do,\" he says, as he slips his wet one inside.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.doggy.golem",
+    "original": "\"Initializing mating routine.\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.doggy.doppelganger",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.doggy.harpy",
+    "original": "\"Caw... caw!!!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.standing.wereslut",
+    "original": "\"Woof, mating! Mating! Take my puppies!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.standing.goblin",
+    "original": "\"Nyahaha! Up the butt!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.standing.adventurer",
+    "original": "\"Mmm... you'll do,\" he says, as he slips his wet one inside.",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.standing.golem",
+    "original": "\"Initializing mating routine.\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.standing.naga",
+    "original": "\"You were saying?\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.standing.doppelganger",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.fellatio.golem",
+    "original": "\"Initializing mating routine.\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.fellatio.naga",
+    "original": "\"You were saying?\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.fellatio.doppelganger",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.fellatio.harpy",
+    "original": "\"Caw... caw!!!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.facefuck.goblin",
+    "original": "\"That's right, pinkskin, suck on that gobbo dick!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.facefuck.orc",
+    "original": "\"Open wide!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.facefuck.golem",
+    "original": "\"Initializing mating routine.\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.facefuck.naga",
+    "original": "\"You were saying?\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.facefuck.doppelganger",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.facefuck.harpy",
+    "original": "\"Caw, caw!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.sixty_nine.goblin",
+    "original": "\"That's right, pinkskin, suck on that gobbo dick!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.sixty_nine.orc",
+    "original": "\"Open wide!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.sixty_nine.golem",
+    "original": "\"Initializing mating routine.\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.sixty_nine.naga",
+    "original": "\"You were saying?\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.footjob.doppelganger",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.handy.doppelganger",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.handy.harpy",
+    "original": "\"Caw! Mating?!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.spanking.doppelganger",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.anal_bottom.doppelganger",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.prone_bone_bottom.wereslut",
+    "original": "\"Nnngh...!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.prone_bone_bottom.harpy",
+    "original": "The harpy squawks frantically!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.prone_bone_bottom.orc",
+    "original": "\"Whoahoho! Come on, fuck me, pinkskin!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.prone_bone_bottom.doppelganger",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.cowgirl_bottom.wereslut",
+    "original": "\"Nnngh...!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.cowgirl_bottom.harpy",
+    "original": "The harpy squawks frantically!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.cowgirl_bottom.goblin",
+    "original": "\"Hey, not up MY butt! Nyahaha!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.cowgirl_bottom.orc",
+    "original": "\"Whoahoho! Come on, fuck me, pinkskin!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.reverse_cowgirl_bottom.wereslut",
+    "original": "\"Nnngh...!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.reverse_cowgirl_bottom.harpy",
+    "original": "The harpy squawks frantically!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.reverse_cowgirl_bottom.goblin",
+    "original": "\"Hey, not up MY butt!  Nyahaha!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.reverse_cowgirl_bottom.orc",
+    "original": "\"Whoahoho! Come on, fuck me, pinkskin!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.doggy_bottom.harpy",
+    "original": "The harpy squawks frantically!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.doggy_bottom.goblin",
+    "original": "\"Hey, not up MY butt!  Nyahaha!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.doggy_bottom.orc",
+    "original": "\"Whoahoho! Come on, fuck me, pinkskin!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.doggy_bottom.doppelganger",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.standing_bottom.wereslut",
+    "original": "\"Nnngh...!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.standing_bottom.harpy",
+    "original": "The harpy squawks frantically!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.standing_bottom.goblin_male",
+    "original": "\"Hey, not up MY butt!  Nyahaha!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.standing_bottom.orc",
+    "original": "\"Whoahoho! Come on, fuck me, pinkskin!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.standing_bottom.doppelganger",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.sixty_nine_bottom.other",
+    "original": "\"Mmf... mmmf!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.ouroboros_bottom.other",
+    "original": "\"Mmf... mmmf!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.spanking_bottom.doppelganger",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.spanking_bottom.harpy",
+    "original": "\"Rawk!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.face_sitting.doppelganger",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.face_sitting.harpy",
+    "original": "\"Raaaawk!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.face_sitting_bottom.doppelganger",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.face_sitting_bottom.other",
+    "original": "\"Mmf... mmmf!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "passive_dialog.change_stance.airborne.harpy",
+    "original": "\"Raaaawk!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "active_dialog.spanking.doppelganger",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "active_dialog.spanking.minotauress",
+    "original": "\"Take it!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "active_dialog.spanking.unicorn",
+    "original": "\"Giddyup!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "active_dialog.spanking.quetzal",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "active_dialog.spanking.mermaid",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "active_dialog.spanking.giantess",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "active_dialog.touching_prostate.anal.doppelganger",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "active_dialog.touching_prostate.anal.giantess",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "active_dialog.handlebar.oral.goblin",
+    "original": "\"Nyaha! They're like handlebars!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "active_dialog.handlebar.oral.minotauress",
+    "original": "\"How do ya like when I grab YOU by the horns?!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "active_dialog.keep_stance.knotted.wereslut.20",
+    "original": "\"Woof, woof!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.werewolf",
+    "original": "Werewolf",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.harpies.mating",
+    "original": "Mating",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.slime",
+    "original": "Slime",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.humanoid.drunk",
+    "original": "Drunk",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.brigand",
+    "original": "Brigand",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.story_bandit_village",
+    "original": "Small Village",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.brigand.cottage",
+    "original": "Cottage",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.dryad",
+    "original": "Dryad",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.goblin",
+    "original": "Goblin",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.orc",
+    "original": "Orc",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.adventurer",
+    "original": "Adventurer",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.ogre",
+    "original": "Ogre",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.elf",
+    "original": "Elf",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.golem",
+    "original": "Golem",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.cave",
+    "original": "Cave",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.naga",
+    "original": "Naga",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.mermaid",
+    "original": "Mermaid",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.wasp",
+    "original": "Wasp",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.minotaur.territorial",
+    "original": "Territorial",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.ettin",
+    "original": "Ettin",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.ettin.sleeping",
+    "original": "Sleeping",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.jester",
+    "original": "Jester",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.dark_knight",
+    "original": "Dark Knight",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.catgirl",
+    "original": "Catgirl",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.cottage",
+    "original": "Cottage",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.tentacles",
+    "original": "Tentacles",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.fort_story",
+    "original": "Fort",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.prostitute",
+    "original": "Prostitute",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.ranger",
+    "original": "Ranger",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.nothing_here",
+    "original": "Nothing here",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "scout_info.question_marks",
+    "original": "???",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.no",
+    "original": "No",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.default",
+    "original": "Default",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.well_q",
+    "original": "Well?",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.which_dick_will_it_be_q",
+    "original": "Which dick will it be?",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.get_dicked_down_q",
+    "original": "Get dicked down?",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.catgirl",
+    "original": "Catgirl",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.minotauress",
+    "original": "Minotauress",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.lupa",
+    "original": "Lupa",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.mouth",
+    "original": "Mouth",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.dullahan",
+    "original": "Dullahan",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.unicorn",
+    "original": "Unicorn",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.yes",
+    "original": "Yes",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.top",
+    "original": "Top",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.seduce",
+    "original": "Seduce",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.ice_cream",
+    "original": "Ice Cream",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.harpies",
+    "original": "Harpies",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.centaurs",
+    "original": "Centaurs",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.vanilla",
+    "original": "Vanilla",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.inside",
+    "original": "Inside",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.chocolate",
+    "original": "Chocolate",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.topping",
+    "original": "Topping",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.anal",
+    "original": "Anal",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.oral",
+    "original": "Oral",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.daisy",
+    "original": "Daisy",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.rose",
+    "original": "Rose",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.ivy",
+    "original": "Ivy",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.kylira",
+    "original": "Kylira",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.back",
+    "original": "Back",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.sleep",
+    "original": "Sleep",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.eyes",
+    "original": "Eyes",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.cock",
+    "original": "Cock",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.hair",
+    "original": "Hair",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.lips",
+    "original": "Lips",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.endure",
+    "original": "Endure",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.ellipsis_quotes",
+    "original": "\"...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.stay",
+    "original": "Stay",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.submit",
+    "original": "Submit",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.flip",
+    "original": "Flip",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.ride",
+    "original": "Ride",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.date",
+    "original": "Date",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.watch",
+    "original": "Watch",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.pervert",
+    "original": "Pervert",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.kiss",
+    "original": "Kiss",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.deepthroat",
+    "original": "Deepthroat",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.cowgirl",
+    "original": "Cowgirl",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.camp",
+    "original": "Camp",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.missionary",
+    "original": "Missionary",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.smash",
+    "original": "Smash",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.sex",
+    "original": "Sex",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.ellipsis_q",
+    "original": "...?",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.inn",
+    "original": "Inn",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.tavern",
+    "original": "Tavern",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.reciprocate",
+    "original": "Reciprocate",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.steal",
+    "original": "Steal",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.trudy",
+    "original": "Trudy",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.hard",
+    "original": "Hard",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.continue",
+    "original": "Continue",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.facial",
+    "original": "Facial",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.red",
+    "original": "Red",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.blonde",
+    "original": "Blonde",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.love_dart",
+    "original": "Love Dart",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.fertilize",
+    "original": "Fertilize",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.blow",
+    "original": "Blow",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.soft",
+    "original": "Soft",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.kiss_trudy",
+    "original": "Kiss Trudy",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.beg",
+    "original": "Beg",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.eggs",
+    "original": "Eggs",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.no_eggs",
+    "original": "No eggs",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.flail",
+    "original": "Flail",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.mating",
+    "original": "Mating",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.pet",
+    "original": "Pet",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.goblin",
+    "original": "Goblin",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.harpy",
+    "original": "Harpy",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.centaur",
+    "original": "Centaur",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.butt",
+    "original": "Butt",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.present",
+    "original": "Present",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.jester",
+    "original": "Jester",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.dark_knight",
+    "original": "Dark Knight",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.smile",
+    "original": "Smile",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.gfxp",
+    "original": "GFXP",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.yes_hesitant",
+    "original": "...yes",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.surrender",
+    "original": "Surrender",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.cait",
+    "original": "Cait",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.vulpa",
+    "original": "Vulpa",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.slut",
+    "original": "Slut",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.fluffy",
+    "original": "Fluffy",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.chattenoire",
+    "original": "Chattenoire",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.how_do_you_ride_q",
+    "original": "How do you ride?",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.facing_alma",
+    "original": "Facing Alma",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.facing_away",
+    "original": "Facing away",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.agree_to_be_their_plaything",
+    "original": "Agree to be their plaything",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.call_friends",
+    "original": "Call friends",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.seduce_one",
+    "original": "Seduce one",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.lift_her_tail",
+    "original": "Lift her tail",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.use_your_hands",
+    "original": "Use your hands",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "encounter.choice.try_it_out",
+    "original": "Try it out",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "player_character.name",
+    "original": "Hiro",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "player_dialog.beg_for_it.70",
+    "original": "\"Nnh... right there... fuck me!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "player_dialog.choke_me.20",
+    "original": "\"Choke me harder!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "player_dialog.choke_me.40",
+    "original": "\"NNh, yeah, choke me! Choke me!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "player_dialog.choke_me.50",
+    "original": "\"Choke me, come on, choke me!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "player_dialog.choke_me.60",
+    "original": "\"Take my breath away... please...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "player_dialog.power_bottom.10",
+    "original": "\"Yeah, you like that?\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "player_dialog.power_bottom.20",
+    "original": "\"Nnh, yeah, you like fucking my ass, huh?\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "player_dialog.power_bottom.30",
+    "original": "\"Mmmm... you gonna cum inside?\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "player_dialog.power_bottom.40",
+    "original": "\"Mmh... I feel it twitching inside...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "player_dialog.power_bottom.50",
+    "original": "\"How do you like it, huh?\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "player_dialog.power_bottom.60",
+    "original": "\"Oooh... are you gonna cum in me?\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "player_dialog.power_bottom.70",
+    "original": "\"How's my ass? Hmmm?\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "player_dialog.purring.30",
+    "original": "\"Mmmm...~\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "player_dialog.purring.40",
+    "original": "\"Ahh... you're so... mmh...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "player_dialog.seductive.10",
+    "original": "\"C'mon... don't you want... this?\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "player_dialog.seductive.20",
+    "original": "\"Oooh... you look like you might... want something...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "player_dialog.seductive.30",
+    "original": "\"Mmmm...~ hey there...\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "player_dialog.seductive.40",
+    "original": "\"Ahh... uhm... hey~\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "player_dialog.top.10",
+    "original": "\"How do you like that? Nnh!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "player_dialog.top.20",
+    "original": "\"You're so tight!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "player_dialog.top.30",
+    "original": "\"Nnh... yeah, squeeze me!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "player_dialog.top.40",
+    "original": "\"Pinch it, c'mon!\"",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "battle.climax.cowgirl_bottom.10",
+    "original": "Awoo! Semen spurts out your untouched cock as your hole is violated!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "battle.climax.cowgirl_bottom.20",
+    "original": "You feel it with your ass, like a girl! Your face is red with shame!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "battle.climax.face_sitting_bottom.20",
+    "original": "Your worthless cum spurts into the dirt!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "battle.climax.face_sitting_bottom.30",
+    "original": "They don't even notice!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "generic.x_ml",
+    "original": "{0} dz",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {0} [新增]"
+  },
+  {
+    "key": "companion_affection.lvl_1",
+    "original": "Companion",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "companion_affection.lvl_2",
+    "original": "Friend",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "baby_type.human.label",
+    "original": "Baby",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "baby_type.unknown.label",
+    "original": "an unknown thing",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "mutation.egg_preg.spider.10",
+    "original": "Your belly is swollen with eggs!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "mutation.egg_preg.spider.30",
+    "original": "Your belly is distended by a clutch of eggs!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "mutation.egg_preg.wasp.10",
+    "original": "Your belly is swollen with eggs!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "mutation.egg_preg.wasp.30",
+    "original": "Your belly is distended by a clutch of eggs!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "mutation.egg_preg.wasp.50",
+    "original": "The wasp eggs are hatching!",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "battle.it_deals_x_damage_to_shield",
+    "original": "It deals {0} damage to it!",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {0} [新增]"
+  },
+  {
+    "key": "battle.attacker_pulls_down_your_someunderwear",
+    "original": "{0} {1, select, you{pulls down your} other{pull down {1}'s}} {2}!",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {0} {1, select, you{pulls down your} {pull down {1} {2} [新增]"
+  },
+  {
+    "key": "phallustype.small.label",
+    "original": "Small",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "phallustype.length.unknown",
+    "original": "Unknown",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "phallustype.girth",
+    "original": "Unknown",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "phallustype.semen_description.unknown",
+    "original": "Unknown",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stat.strength.rank.30",
+    "original": "Weak",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stat.strength.rank.40",
+    "original": "Soft",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stat.strength.rank.60",
+    "original": "Strong",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stat.endurance.rank.10",
+    "original": "Feeble",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stat.endurance.rank.60",
+    "original": "Durable",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stat.endurance.rank.80",
+    "original": "Stalwart",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stat.perception.rank.80",
+    "original": "Sharp",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stat.charisma.rank.50",
+    "original": "Plain",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "purity_tier.loose.label",
+    "original": "Loose",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "pronouns.male.genitive",
+    "original": "his",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "pronouns.female.possessive",
+    "original": "her",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "pronouns.second_person.objective",
+    "original": "you",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "dignity_tier.embarrassed.label",
+    "original": "Embarrassed",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "dignity_tier.none.label",
+    "original": "None",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stance.berserk.label",
+    "original": "Berserk",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stance.haymaker.label",
+    "original": "Haymaker",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stance.stonewall.label",
+    "original": "Stonewall",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stance.counter.label",
+    "original": "Counter",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stance.bondage.label",
+    "original": "Bondage",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stance.full_nelson.label",
+    "original": "Full Nelson",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stance.prone_bone.label",
+    "original": "Prone Bone",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stance.cowgirl.label",
+    "original": "Cowgirl",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stance.footjob.label",
+    "original": "Footjob",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stance.facefuck.label",
+    "original": "Facefuck",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stance.ouroboros.label",
+    "original": "Ouroboros",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stance.penetrated.label",
+    "original": "Penetrated",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "stance.erupt.label",
+    "original": "Erupt",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "rectum_contents.tentacle",
+    "original": "Tentacle",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "rectum_fullness.empty",
+    "original": "Empty",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "rectum_tightness.normal",
+    "original": "Normal",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "rectum_tightness.loose",
+    "original": "Loose",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "battle.extra.burns_for_x_damage",
+    "original": "The fire burns for {0} damage!",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {0} [新增]"
+  },
+  {
+    "key": "battle.extra.chills_for_x_damage",
+    "original": "The cold chills for {0} damage!",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {0} [新增]"
+  },
+  {
+    "key": "battle.extra.shocks_for_x_damage",
+    "original": "The lightning strikes for {0} damage!",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {0} [新增]"
+  },
+  {
+    "key": "battle.armor_x_broken",
+    "original": "The {0} is broken!",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {0} [新增]"
+  },
+  {
+    "key": "virginity_lost.battle.fragment",
+    "original": "{0}!",
+    "translation": "",
+    "stage": 0,
+    "context": "占位符保持不变: {0} [新增]"
+  },
+  {
+    "key": "hair_color.black.label",
+    "original": "Black",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "hair_color.brown.label",
+    "original": "Brown",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "hair_color.red.label",
+    "original": "Red",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "hair_color.blonde.label",
+    "original": "Blonde",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "hair_color.pink.label",
+    "original": "Pink",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "hair_color.mix.label",
+    "original": "Mix",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "hair_color.silver.label",
+    "original": "Silver",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "hair_style.pigtails.label",
+    "original": "Pigtails",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "hair_style.ponytail.label",
+    "original": "Ponytail",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "hair_style.buns.label",
+    "original": "Buns",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "hair_style.short.label",
+    "original": "Short",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "eye_color.pink.label",
+    "original": "Pink",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "pregnant",
+    "original": "Pregnant",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "keybind.navigate_back",
+    "original": "Back",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "keybind.world_map_rest",
+    "original": "Rest",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "keybind.world_map_camp",
+    "original": "Camp",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "keybind.encounter_toggle_hud",
+    "original": "Toggle HUD",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "keybind.skill_select_skills",
+    "original": "Skills",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "keybind.skill_select_magic",
+    "original": "Magic",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "keybind.skill_select_perks",
+    "original": "Perks",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "keybind.skill_select_reset",
+    "original": "Reset",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "keybind.skill_select_done",
+    "original": "Done",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  },
+  {
+    "key": "pausescreen.options",
+    "original": "Options",
+    "translation": "",
+    "stage": 0,
+    "context": " [新增]"
+  }
+]
