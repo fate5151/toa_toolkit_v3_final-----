@@ -2,7 +2,7 @@
 
 **游戏**：Tales of Androgyny v0.3.67.0  
 **项目**：https://majalis.itch.io/tales-of-androgyny  
-**发布**：https://itch.io/profile/hikarisan  
+**发布**：https://itch.io/t/6479954/03691-deepseek-v4-flash
 
 ---
 
