@@ -1,17 +1,26 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-ToA 汉化工具包 — 智能换行模块
+ToA 汉化工具包 — 智能换行模块 v2
 ================================
 为游戏回注译文自动添加换行符（\\n），解决长文本一行显示不全的问题。
 
-核心特性：
+v2 更新内容：
+  - 默认行宽从 28 调整为 32 字（按对话框实测宽度估算）
+  - 新增 reflow_text()：先合并已有换行再统一重新断行，
+    解决"断行长短不一、留白过多"的问题
+  - 新增最大行数控制（DEFAULT_MAX_LINES）：对话框最多显示 N 行，
+    超出部分游戏里看不到；排版时会在 [width, max_width] 区间内
+    尝试放宽行宽以压缩行数
+  - process_translation() 现在返回三元组：
+    (处理后文本, 换行是否发生变化, 是否仍超过最大行数)
+    —— 调用处需要同步修改解包方式！
+
+核心特性（沿用 v1）：
   - 占位符保护：{0}、{nom0}、{poss0}、{Nom:ogre} 等绝不被断开
   - 英文单词保护：不会在英文单词中间断行
   - 中文标点智能断行：优先在 ，。！？ 等标点后断行
   - 多层转义处理：\\n → \\n → 实际换行，层层还原
-  - 尊重已有换行：保留译者手动换行，仅对超长行再断行
-  - 可配置行宽：默认 28 字，适合游戏对话框
 
 被 encounters_toolkit.py 和 toa_trans_toolkit.py 共同引用。
 """
@@ -22,8 +31,15 @@ import re
 # 常量
 # ──────────────────────────────────────────────
 
-# 默认每行最大字符数（中文约 28 字适合游戏对话框）
-DEFAULT_WRAP_WIDTH = 28
+# 默认每行最大字符数（中文，适合游戏对话框；按实测宽度估算）
+DEFAULT_WRAP_WIDTH = 40
+
+# 对话框最多显示行数，超出部分游戏里看不到
+DEFAULT_MAX_LINES = 5
+
+# 放宽断行宽度的硬上限：超过这个数字文字会顶出对话框，不能再放宽
+# 注意：必须 >= DEFAULT_WRAP_WIDTH，否则"超5行自动放宽"的保险机制会失效
+MAX_WIDTH_CAP = 42
 
 # 中文标点：优先在这些字符之后断行（断行后标点留在上一行末尾）
 BREAK_AFTER = frozenset("，。！？；：、」）》」』】…—～~,.!?;:")
@@ -31,8 +47,12 @@ BREAK_AFTER = frozenset("，。！？；：、」）》」』】…—～~,.!?;:
 # 中文标点：优先在这些字符之前断行（断行后标点出现在新行开头）
 BREAK_BEFORE = frozenset("「《『【(")
 
-# 占位符正则：匹配 {0}、{nom0}、{poss0}、{Nom:ogre}、{1:format} 等
-RE_PLACEHOLDER = re.compile(r'\{[^{}]*\}')
+# 占位符正则：
+#   - 花括号 {0}、{nom0}、{poss0}、{Nom:ogre}、{1:format} 等数据占位符
+#   - 方括号 [heartbeat=.2]、[endheartbeat]、[%150]、[crowd=5;5]、[endcrowd] 等
+#     游戏引擎的语音/特效控制标签（心跳音效计时、文字缩放、人群特效等）
+# 两者都绝不能被换行符切断，否则进游戏后标签失效甚至显示乱码
+RE_PLACEHOLDER = re.compile(r'\{[^{}]*\}|\[[^\[\]]*\]')
 
 # 英文单词正则：连续的英文字母和撇号
 RE_ENGLISH_WORD = re.compile(r"[A-Za-z][A-Za-z']*")
@@ -40,7 +60,7 @@ RE_ENGLISH_WORD = re.compile(r"[A-Za-z][A-Za-z']*")
 
 def _is_ascii_alpha(ch: str) -> bool:
     """判断字符是否为 ASCII 字母（A-Z, a-z）。
-    
+
     注意：Python 的 str.isalpha() 对中文字符也返回 True，
     所以不能用它来判断英文单词边界。
     """
@@ -53,7 +73,7 @@ def _is_ascii_alpha(ch: str) -> bool:
 
 def _protect_placeholders(text: str) -> tuple[str, dict[str, str]]:
     """将 {占位符} 替换为不可断开的标记，返回 (处理后文本, 映射表)。
-    
+
     这样断行算法不会在占位符中间插入换行符。
     标记使用 \\x01 填充至与原占位符等长或更长，确保：
       - 字符计数不会少于原占位符（还原后行宽不会超限）
@@ -133,6 +153,10 @@ def wrap_text(text: str, width: int = DEFAULT_WRAP_WIDTH) -> str:
       - 其次在中文标点前断行
       - 其次在空格处断行
       - 最后才硬断行
+
+    注意：本函数不会合并已有的换行，只对每个已有段落独立判断是否超宽。
+    如果需要先合并旧换行再统一重排（修正断行长短不一、留白过多的问题），
+    请使用 reflow_text()。
     """
     if not text:
         return text
@@ -151,6 +175,52 @@ def wrap_text(text: str, width: int = DEFAULT_WRAP_WIDTH) -> str:
         result.extend(lines)
 
     return '\n'.join(result)
+
+
+def reflow_text(text: str, width: int = DEFAULT_WRAP_WIDTH,
+                 max_lines: int | None = DEFAULT_MAX_LINES,
+                 max_width: int = MAX_WIDTH_CAP) -> tuple[str, int, bool]:
+    r"""合并已有换行后按 width 重新断行，并尽量控制最大行数。
+
+    适用场景：
+      译文中已经包含 \n（可能来自原文行宽、或翻译模型沿用了原文
+      换行位置），导致断行长短不一、行尾留白过多、或总行数超过
+      对话框最多可显示的行数（多出来的行游戏里直接看不到）。
+
+    策略：
+      1. 把文本里已有的 \n 全部拼掉（中文不需要空格分词，直接拼接）
+      2. 按 width 重新断行
+      3. 若行数仍超过 max_lines，逐步放宽 width 重试
+         （框够宽时，断行次数减少，能省下一整行）
+      4. 放宽到 max_width 仍超出 → 排版已无法再压缩，
+         说明译文本身偏长，需要人工精简；此时仍返回当前最佳排版结果，
+         并将 still_exceeds 标记为 True，供上层统计/生成报告
+
+    参数：
+      text:      原始译文（可能含 \n）
+      width:     起始换行宽度
+      max_lines: 最大允许行数，None 或 0 表示不限制行数
+      max_width: 放宽宽度的硬上限（超过会横向顶出对话框）
+
+    返回：
+      (处理后文本, 实际使用的宽度, 是否仍超过 max_lines)
+    """
+    if not text:
+        return text, width, False
+
+    merged = text.replace('\n', '')
+    current_width = width
+    result = wrap_text(merged, width=current_width)
+
+    if not max_lines:
+        return result, current_width, False
+
+    while (result.count('\n') + 1) > max_lines and current_width < max_width:
+        current_width += 1
+        result = wrap_text(merged, width=current_width)
+
+    still_exceeds = (result.count('\n') + 1) > max_lines
+    return result, current_width, still_exceeds
 
 
 def _split_paragraph(para: str, width: int) -> list:
@@ -187,10 +257,10 @@ def _split_paragraph(para: str, width: int) -> list:
 
 def _adjust_for_placeholder(text: str, pos: int) -> int:
     """如果断点落在占位符标记内部，调整到标记结束位置之后。
-    
+
     标记格式：\\x00 + 序号(数字) + \\x00 + \\x01填充
     确保不在标记中间断行。
-    
+
     策略：扫描文本中所有标记的范围，如果 pos 落在某个标记内部，
     则将断点调整到该标记结束位置之后。
     """
@@ -319,32 +389,50 @@ def _find_break_point(text: str, width: int) -> int:
 # ──────────────────────────────────────────────
 
 def process_translation(text: str, width: int = DEFAULT_WRAP_WIDTH,
-                        no_wrap: bool = False) -> tuple[str, bool]:
-    """处理单条译文：标准化换行符 + 可选自动换行。
+                         no_wrap: bool = False, reflow: bool = True,
+                         max_lines: int | None = DEFAULT_MAX_LINES,
+                         max_width: int = MAX_WIDTH_CAP) -> tuple[str, bool, bool]:
+    """处理单条译文：标准化换行符 + 自动换行/重排 + 行数控制。
 
     参数：
-      text:    原始译文
-      width:   每行最大字符数
-      no_wrap: 是否禁用自动换行（仅做换行符标准化）
+      text:      原始译文
+      width:     每行最大字符数（起始宽度）
+      no_wrap:   是否禁用自动换行（仅做换行符标准化）
+      reflow:    是否先合并已有换行再统一重排（默认开启，能修正
+                 "断行长短不一、留白过多"的问题；如需保留译者/原文
+                 已有的换行位置，可传 False 改为仅对超长行追加断行，
+                 即 v1 的行为）
+      max_lines: 对话框最多显示行数，None 或 0 表示不限制
+      max_width: 放宽断行宽度的硬上限（仅在 reflow=True 时生效）
 
     返回：
-      (处理后的文本, 是否被自动换行)
+      (处理后的文本, 换行是否发生了变化, 是否仍超过 max_lines)
+
+    注意：本函数返回值是三元组（v1 是二元组），调用处需要相应解包。
     """
     if not text:
-        return text, False
+        return text, False, False
 
     # 1. 标准化换行符
     processed = normalize_newlines(text)
 
-    # 2. 自动换行
+    # 2. 不换行：仅做标准化
     if no_wrap:
-        return processed, False
+        return processed, False, False
 
-    before_wrap = processed
-    processed = wrap_text(processed, width=width)
-    was_wrapped = (processed != before_wrap)
+    before = processed
 
-    return processed, was_wrapped
+    # 3. 合并重排 或 仅对超长行追加断行
+    if reflow:
+        processed, _used_width, exceeds = reflow_text(
+            processed, width=width, max_lines=max_lines, max_width=max_width
+        )
+    else:
+        processed = wrap_text(processed, width=width)
+        exceeds = bool(max_lines) and ((processed.count('\n') + 1) > max_lines)
+
+    changed = (processed != before)
+    return processed, changed, exceeds
 
 
 # ──────────────────────────────────────────────
@@ -352,17 +440,24 @@ def process_translation(text: str, width: int = DEFAULT_WRAP_WIDTH,
 # ──────────────────────────────────────────────
 
 def wrap_json_file(input_path: str, output_path: str,
-                   width: int = DEFAULT_WRAP_WIDTH,
-                   text_key: str = "translation") -> dict:
+                    width: int = DEFAULT_WRAP_WIDTH,
+                    text_key: str = "translation",
+                    max_lines: int | None = DEFAULT_MAX_LINES,
+                    max_width: int = MAX_WIDTH_CAP,
+                    reflow: bool = True) -> dict:
     """对已有的翻译 JSON 文件中的译文添加换行符。
 
-    适用于已经回注但忘记加换行的情况，可以直接对翻译 JSON 处理。
+    适用于已经回注但忘记加换行（或需要调整行宽/最大行数限制）的情况，
+    可以直接对翻译 JSON 处理。
 
     参数：
       input_path:  输入 JSON 文件路径
       output_path: 输出 JSON 文件路径
       width:       每行最大字符数
       text_key:    译文所在的字段名
+      max_lines:   对话框最多显示行数，None 或 0 表示不限制
+      max_width:   放宽断行宽度的硬上限
+      reflow:      是否先合并已有换行再统一重排
 
     返回：
       统计信息字典
@@ -375,6 +470,7 @@ def wrap_json_file(input_path: str, output_path: str,
     total = 0
     wrapped = 0
     unchanged = 0
+    overflow_keys = []
 
     for item in data:
         text = item.get(text_key, "")
@@ -382,9 +478,14 @@ def wrap_json_file(input_path: str, output_path: str,
             continue
 
         total += 1
-        processed, was_wrapped = process_translation(text, width=width)
+        processed, was_changed, exceeds = process_translation(
+            text, width=width, reflow=reflow, max_lines=max_lines, max_width=max_width
+        )
 
-        if was_wrapped:
+        if exceeds:
+            overflow_keys.append(item.get("key") or item.get("name") or text[:20])
+
+        if was_changed:
             wrapped += 1
             item[text_key] = processed
         else:
@@ -399,4 +500,6 @@ def wrap_json_file(input_path: str, output_path: str,
         "total": total,
         "wrapped": wrapped,
         "unchanged": unchanged,
+        "overflow": len(overflow_keys),
+        "overflow_keys": overflow_keys,
     }

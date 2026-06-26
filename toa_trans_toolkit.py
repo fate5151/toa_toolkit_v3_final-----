@@ -1,15 +1,26 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 r"""
-ToA (Tales of Androgyny) strings.properties 提取/回注工具 v3 (最终版)
+ToA (Tales of Androgyny) strings.properties 提取/回注工具 v4
 ====================================================================
+v4 更新内容（相对 v3）：
+  - 默认换行宽度调整为 32 字（按对话框实测宽度估算）
+  - 新增"合并重排"（reflow）：先合并已有换行再统一重新断行，
+    解决"断行长短不一、留白过多"的问题（默认开启）
+  - 新增最大行数控制：对话框最多显示 5 行，超出部分游戏里看不到；
+    排版时会在 [wrap, max-width] 区间内尝试放宽行宽以压缩行数
+  - 排版后仍超过最大行数的条目会生成 overflow 报告（.overflow.txt），
+    需要人工精简译文
+  - --no-reflow 可关闭合并重排，恢复 v3 行为（仅对超长行追加断行，
+    保留译者/原文已有的换行位置）
+
 用法：
   python toa_trans_toolkit.py extract-strings   strings.properties --fmt ainiee
   python toa_trans_toolkit.py extract-strings   strings.properties --fmt galtransl
   python toa_trans_toolkit.py inject-strings    strings.properties translated.json output.properties
-  python toa_trans_toolkit.py inject-strings    strings.properties translated.json output.properties --wrap 28
-  python toa_trans_toolkit.py inject-strings    strings.properties translated.json output.properties --dry-run
-  python toa_trans_toolkit.py inject-strings    strings.properties translated.json output.properties --verbose
+  python toa_trans_toolkit.py inject-strings    strings.properties translated.json output.properties --wrap 32 --max-lines 5
+  python toa_trans_toolkit.py inject-strings    strings.properties translated.json output.properties --dry-run --verbose
+  python toa_trans_toolkit.py inject-strings    strings.properties translated.json output.properties --no-reflow
 
 AiNiee：选「ParaTranz导出」模式导入，译文填入 "translation" 字段
 GalTransl：将输出放入 gt_input/ 目录，译文填入 "translation" 字段
@@ -18,6 +29,7 @@ GalTransl：将输出放入 gt_input/ 目录，译文填入 "translation" 字段
   - 占位符保护：{0}、{nom0} 等绝不被断开
   - 英文单词保护：不会在英文单词中间断行
   - 多层转义处理：\\n → \n → 实际换行
+  - 合并重排 + 最大行数控制（见上方 v4 说明）
 """
 
 import json
@@ -29,6 +41,8 @@ from pathlib import Path
 # 引入共享换行模块
 from textwrap_utils import (
     DEFAULT_WRAP_WIDTH,
+    DEFAULT_MAX_LINES,
+    MAX_WIDTH_CAP,
     normalize_newlines,
     wrap_text,
     process_translation,
@@ -160,8 +174,10 @@ def build_galtransl(entries: list) -> list:
 # ──────────────────────────────────────────────
 
 def inject_strings(src_path: str, translated_json: str, out_path: str,
-                   wrap_width: int = DEFAULT_WRAP_WIDTH, no_wrap: bool = False,
-                   dry_run: bool = False, verbose: bool = False):
+                    wrap_width: int = DEFAULT_WRAP_WIDTH, no_wrap: bool = False,
+                    dry_run: bool = False, verbose: bool = False,
+                    max_lines: int = DEFAULT_MAX_LINES, max_width: int = MAX_WIDTH_CAP,
+                    reflow: bool = True):
     with open(translated_json, "r", encoding="utf-8") as f:
         trans_list = json.load(f)
 
@@ -176,10 +192,13 @@ def inject_strings(src_path: str, translated_json: str, out_path: str,
     with open(src_path, "r", encoding="utf-8") as f:
         lines = f.readlines()
 
-    out_lines = []
-    wrap_count = 0
-    norm_count = 0
-    wrap_details = []
+    out_lines     = []
+    wrap_count    = 0
+    overflow_list = []   # (key, 行数)
+    wrap_details  = []
+
+    # max_lines 传 0 视为不限制
+    effective_max_lines = max_lines if max_lines else None
 
     for line in lines:
         stripped = line.rstrip("\n")
@@ -188,24 +207,23 @@ def inject_strings(src_path: str, translated_json: str, out_path: str,
             key = m.group(1).strip()
             if key in trans_map:
                 # ── 换行处理 ──
-                processed, was_wrapped = process_translation(
-                    trans_map[key], width=wrap_width, no_wrap=no_wrap
+                processed, was_changed, exceeds = process_translation(
+                    trans_map[key], width=wrap_width, no_wrap=no_wrap,
+                    reflow=reflow, max_lines=effective_max_lines, max_width=max_width
                 )
 
-                # 检测是否仅做了换行符标准化
-                norm_only = (not was_wrapped) and (processed != trans_map[key])
-                if was_wrapped:
+                if was_changed:
                     wrap_count += 1
-                elif norm_only:
-                    norm_count += 1
+
+                if exceeds:
+                    overflow_list.append((key, processed.count('\n') + 1))
 
                 # verbose: 记录换行详情
-                if verbose and (was_wrapped or norm_only):
+                if verbose and was_changed:
                     wrap_details.append({
                         "key": key,
                         "before": trans_map[key],
                         "after": processed,
-                        "type": "自动换行" if was_wrapped else "换行符标准化",
                     })
 
                 # 转义为 .properties 格式（实际换行 → \n 字面量）
@@ -222,19 +240,35 @@ def inject_strings(src_path: str, translated_json: str, out_path: str,
             f.writelines(out_lines)
 
     print(f"\n✅ 回注{'预览' if dry_run else '完成'}：{len(trans_map)} 条")
-    if wrap_count:
-        print(f"   自动换行:     {wrap_count} 条  (每行≤{wrap_width}字)")
-    if norm_count:
-        print(f"   换行符标准化: {norm_count} 条  (\\n → 真换行)")
+    print(f"   换行/重排:    {wrap_count} 条  "
+          f"(起始宽度≤{wrap_width}字，{'已启用' if reflow else '未启用'}合并重排)")
     if not dry_run:
         print(f"   输出: {out_path}")
+
+    # ── 超出最大行数的条目报告 ──
+    if effective_max_lines and overflow_list:
+        print(f"\n⚠️ 排版后仍超过 {effective_max_lines} 行的条目"
+              f"（已尝试放宽至{max_width}字仍超出，需人工精简译文）: {len(overflow_list)} 条")
+        for k, n in overflow_list[:20]:
+            print(f"   {k}  ({n} 行)")
+        if len(overflow_list) > 20:
+            print(f"   ...另外 {len(overflow_list) - 20} 条，详见完整报告文件")
+
+        if not dry_run:
+            overflow_path = out_path + ".overflow.txt"
+            with open(overflow_path, "w", encoding="utf-8") as f:
+                for k, n in overflow_list:
+                    f.write(f"{k}\t{n}行\n")
+            print(f"   完整列表已写入: {overflow_path}")
+    elif effective_max_lines:
+        print(f"\n✅ 所有条目均未超过 {effective_max_lines} 行限制")
 
     # ── verbose: 显示换行详情 ──
     if verbose and wrap_details:
         print(f"\n📋 换行详情 ({len(wrap_details)} 条):")
         print("─" * 60)
         for i, detail in enumerate(wrap_details, 1):
-            print(f"  [{i}] {detail['key']}  ({detail['type']})")
+            print(f"  [{i}] {detail['key']}")
             print(f"      前: {detail['before']!r}")
             print(f"      后: {detail['after']!r}")
             for j, line in enumerate(detail['after'].split('\n')):
@@ -270,13 +304,15 @@ def cmd_extract(args):
 
 def cmd_inject(args):
     inject_strings(args.source, args.translated, args.output,
-                   wrap_width=args.wrap, no_wrap=args.no_wrap,
-                   dry_run=args.dry_run, verbose=args.verbose)
+                    wrap_width=args.wrap, no_wrap=args.no_wrap,
+                    dry_run=args.dry_run, verbose=args.verbose,
+                    max_lines=args.max_lines, max_width=args.max_width,
+                    reflow=args.reflow)
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="ToA strings.properties 提取/回注工具 v3 (最终版)",
+        description="ToA strings.properties 提取/回注工具 v4",
     )
     sub = parser.add_subparsers(dest="command", required=True)
 
@@ -290,13 +326,20 @@ def main():
     p2.add_argument("translated")
     p2.add_argument("output")
     p2.add_argument("--wrap", type=int, default=DEFAULT_WRAP_WIDTH,
-                    help=f"每行最大字符数，超长译文自动添加换行符（默认 {DEFAULT_WRAP_WIDTH}）")
+                     help=f"起始换行宽度，超长译文自动添加换行符（默认 {DEFAULT_WRAP_WIDTH}）")
     p2.add_argument("--no-wrap", action="store_true", default=False,
-                    help="禁用自动换行（仅处理字面 \\n 转换）")
+                     help="禁用自动换行（仅处理字面 \\n 转换）")
+    p2.add_argument("--max-lines", type=int, default=DEFAULT_MAX_LINES,
+                     help=f"最多显示行数，超出部分游戏里看不到"
+                          f"（默认 {DEFAULT_MAX_LINES}，传 0 表示不限制）")
+    p2.add_argument("--max-width", type=int, default=MAX_WIDTH_CAP,
+                     help=f"放宽换行宽度的硬上限（默认 {MAX_WIDTH_CAP}）")
+    p2.add_argument("--no-reflow", dest="reflow", action="store_false", default=True,
+                     help="禁用合并重排，恢复为仅对超长行追加换行")
     p2.add_argument("--dry-run", action="store_true", default=False,
-                    help="预览模式：只显示换行效果，不写入文件")
+                     help="预览模式：只显示换行效果，不写入文件")
     p2.add_argument("--verbose", "-v", action="store_true", default=False,
-                    help="显示每条换行的详细前后对比")
+                     help="显示每条换行的详细前后对比")
 
     args = parser.parse_args()
     {"extract-strings": cmd_extract, "inject-strings": cmd_inject}[args.command](args)
